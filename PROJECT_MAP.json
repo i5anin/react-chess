@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "react-chess",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:react-chess",
+      "type": "project",
+      "name": "react-chess"
+    },
+    {
+      "id": "project:react-chess/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "8de5ed967a400c2f0dcb1910e68f2d6416ba2000cbda732b6f5f752dc3fc7b4e",
+      "bytes": 2159
+    },
+    {
+      "id": "project:react-chess/file:package.json",
+      "type": "file",
+      "path": "package.json",
+      "sha256": "587223c58836e4b86a74e371029a6d65869c0eb8623c28a6b7b6843232f19122",
+      "bytes": 1074
+    },
+    {
+      "id": "project:react-chess/file:src/App.tsx",
+      "type": "file",
+      "path": "src/App.tsx",
+      "sha256": "29b096efdacddcab95afc87a1d30d81a8984a0c5b9490c3bbb00bfb4d521190f",
+      "bytes": 257
+    },
+    {
+      "id": "project:react-chess/file:src/components/BoardComponent.tsx",
+      "type": "file",
+      "path": "src/components/BoardComponent.tsx",
+      "sha256": "2aac6f0a9e1cf6f111e56e9053ad02d8192f9c0d596b066ba3babbc598f63c6e",
+      "bytes": 939
+    },
+    {
+      "id": "project:react-chess/file:src/components/CellComponent.tsx",
+      "type": "file",
+      "path": "src/components/CellComponent.tsx",
+      "sha256": "d95913aa26b38286096d3cdf041547e369da824a02671114be931c821c86bb03",
+      "bytes": 186
+    },
+    {
+      "id": "project:react-chess/file:src/index.tsx",
+      "type": "file",
+      "path": "src/index.tsx",
+      "sha256": "5ddecc7a18974ad9660063b09873f564040d4939a188d1e9ffb997623450a3ad",
+      "bytes": 164
+    },
+    {
+      "id": "project:react-chess/file:src/react-app-env.d.ts",
+      "type": "file",
+      "path": "src/react-app-env.d.ts",
+      "sha256": "ba027b6f18800b0303aa700e73d8cbffeefd5df864df6be460f5bad437fdc61c",
+      "bytes": 41
+    },
+    {
+      "id": "project:react-chess/file:src/reportWebVitals.ts",
+      "type": "file",
+      "path": "src/reportWebVitals.ts",
+      "sha256": "de99fe431972368a2caddeb899a538792356c5ee633de87b33a0fcb31d82230f",
+      "bytes": 440
+    },
+    {
+      "id": "package:npm:@testing-library/jest-dom",
+      "type": "package",
+      "name": "@testing-library/jest-dom",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@testing-library/react",
+      "type": "package",
+      "name": "@testing-library/react",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@testing-library/user-event",
+      "type": "package",
+      "name": "@testing-library/user-event",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/jest",
+      "type": "package",
+      "name": "@types/jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/node",
+      "type": "package",
+      "name": "@types/node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/react",
+      "type": "package",
+      "name": "@types/react",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/react-dom",
+      "type": "package",
+      "name": "@types/react-dom",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:react",
+      "type": "package",
+      "name": "react",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:react-dom",
+      "type": "package",
+      "name": "react-dom",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:react-scripts",
+      "type": "package",
+      "name": "react-scripts",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript",
+      "type": "package",
+      "name": "typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:web-vitals",
+      "type": "package",
+      "name": "web-vitals",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:react-chess",
+      "target": "project:react-chess/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:react-chess",
+      "target": "project:react-chess/file:package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:react-chess",
+      "target": "project:react-chess/file:src/App.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/App.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:react-chess",
+      "target": "project:react-chess/file:src/components/BoardComponent.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/components/BoardComponent.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:react-chess",
+      "target": "project:react-chess/file:src/components/CellComponent.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/components/CellComponent.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:react-chess",
+      "target": "project:react-chess/file:src/index.tsx",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/index.tsx"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:react-chess",
+      "target": "project:react-chess/file:src/react-app-env.d.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/react-app-env.d.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:react-chess",
+      "target": "project:react-chess/file:src/reportWebVitals.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/reportWebVitals.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:react-chess/file:src/App.tsx",
+      "target": "project:react-chess/file:src/components/BoardComponent.tsx",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/App.tsx",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:react-chess/file:src/index.tsx",
+      "target": "project:react-chess/file:src/App.tsx",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/index.tsx",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:@testing-library/jest-dom",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 6
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:@testing-library/react",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 7
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:@testing-library/user-event",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 8
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:@types/jest",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 9
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:@types/node",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 10
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:@types/react",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 11
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:@types/react-dom",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 12
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:react",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 13
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:react-dom",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 14
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:react-scripts",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 15
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:react-chess/file:package.json",
+      "target": "package:npm:web-vitals",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    }
+  ]
+}
