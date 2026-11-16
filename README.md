@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+**ЦКП:** Учебный шахматный интерфейс и предметная модель игры на React и TypeScript.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
